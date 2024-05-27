@@ -32,7 +32,7 @@ const Header = () => {
 
   return (
     <section className={`${bgColor ? 'backdrop-blur-sm' : ''} fixed top-0 w-full z-10 `}>
-        <section className="flex justify-between px-7 bg-black p-2 text-white text-[14px]">
+        <section className="flex justify-between px-7 bg-black p-2 gap-2 text-white text-[14px]">
             <aside className="flex items-center gap-3">
                 <FaFacebook />
                 <FaInstagram />
