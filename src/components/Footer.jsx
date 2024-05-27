@@ -11,10 +11,10 @@ const Footer = () => {
   return (
     <section className='md:mt-[5rem] mt-[3rem] mb-[-30px] p-10 flex flex-wrap bg-black justify-between'>
         <aside className=''>
-          <section className='leading-[60px]'>
+          <section className=''>
             <img src={logo} loading='lazy' className='w-[150px]' alt="" />
-            <p className='text-[#dcedff] text-[18px]'>Find the Perfect paradise in your home with Stefred Global Resources</p>
-            <section className='flex gap-4 items-center text-[#dcedff]'>
+            <p className='text-[#dcedff] md:w-[90%] w-full mt-3 text-[18px]'>Find the Perfect paradise in your home with Stefred Global Resources</p>
+            <section className='flex gap-4 items-center mt-4 text-[#dcedff]'>
                 <FaFacebook className='border-[1px] border-[#dcedff] rounded-[100%] p-2 text-[2.5rem] cursor-pointer hover:text-white hover:border-white' />
                 <FaInstagram className='border-[1px] border-[#dcedff] rounded-[100%] p-2 text-[2.5rem] cursor-pointer hover:text-white hover:border-white' />
                 <FaLinkedin className='border-[1px] border-[#dcedff] rounded-[100%] p-2 text-[2.5rem] cursor-pointer hover:text-white hover:border-white' />
