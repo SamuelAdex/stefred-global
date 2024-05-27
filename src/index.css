@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: ease-in-out .2s;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+body{
+  background: #dcedff;
+}
+
+.hero{
+  background: #e8f3ff;
+  background: url('../src/assets/building3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#triangle{
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+  
+}
+
+
+/* Navigation bar animation styles */
+.slide-left {
+  -webkit-animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  transition: ease-in-out .2s;
+}
+
+.slide-right {
+  -webkit-animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px);
+  }
+  100% {
+    -webkit-transform: translateX(-0px);
+    transform: translateX(-0px);
+  }
+}
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px);
+  }
+  100% {
+    -webkit-transform: translateX(-0px);
+    transform: translateX(-0px);
+  }
+}
