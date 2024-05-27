@@ -10,7 +10,7 @@ import { MdCall } from 'react-icons/md'
 const Contact = () => {
   return (
     <section className='lg:w-[90%] w-full m-auto m-[0px] lg:px-0 px-6 md:mt-[5rem] mt-[3rem] flex lg:flex-row flex-col items-center justify-between' id="contact">
-        <section className="leading-[30px] flex-[2]">
+        <section className="leading-[30px] flex-[2] platypi">
             <small className='text-[14px] font-semibold text-[#1E7BD7]'>QUICK ENQUIRY</small>
             <h1 className='text-[40px] md:w-[70%] leading-[50px] font-bold'>Get in Touch We Us</h1>
         </section>

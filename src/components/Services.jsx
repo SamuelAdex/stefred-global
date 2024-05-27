@@ -11,9 +11,9 @@ import { TbHomeDollar } from "react-icons/tb";
 
 const Services = () => {
   return (
-    <section id='services' className='mt-[5rem] text-center lg:w-[90%] w-full lg:px-0 px-4 m-auto m-[0px]'>
-        <small className='text-[14px] font-semibold text-[#1E7BD7]'>EXPLORE OUR SERVICES</small>
-        <h1 className='text-[40px] font-bold'>What we Do?</h1>
+    <section id='services' className='mt-[5rem] platypi text-center lg:w-[90%] w-full lg:px-0 px-4 m-auto m-[0px]'>
+        <small className='text-[14px] font-semibold text-[#1E7BD7] platypi'>EXPLORE OUR SERVICES</small>
+        <h1 className='text-[40px] font-bold platypi'>What we Do?</h1>
         <section className='flex items-center md:flex-row flex-col gap-10 md:mt-[3rem] mt-[1rem]'>
             <section className='text-center flex flex-col items-center hover:text-black text-[#dcedff] bg-[#1E7BD7] flex-1 hover:bg-gray-100 cursor-pointer p-3 rounded-[14px] py-8'>
                 <RiHomeSmile2Line fontSize={"4rem"} />

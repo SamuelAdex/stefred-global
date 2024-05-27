@@ -34,8 +34,8 @@ const Testimonial = () => {
         1024: { items: 1 },
     };
   return (
-    <section className='md:mt-[5rem] mt-[3rem]'>
-        <section className='text-center leading-8'>
+    <section className='md:mt-[5rem] mt-[3rem]' id='testimonies'>
+        <section className='text-center leading-8 platypi'>
             <small className='text-[14px] font-semibold text-[#1E7BD7]'>WHAT OUR CLIENTS SAY ABOUT US</small>
             <h1 className='text-[40px] font-bold'>Testimonials</h1>            
         </section>
