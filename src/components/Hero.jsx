@@ -13,7 +13,9 @@ const Hero = () => {
             <section className='md:p-[50px] p-4 flex flex-col gap-6'>
                 <h1 className='md:text-[60px] text-[28px] md:w-[60%] md:leading-[70px] leading-[48px] w-full text-black font-bold'>Find the Perfect paradise in your home</h1>
                 <p className='mt-4 md:text-[30px] text-[16px] md:w-[75%] md:font-semibold text-black md:leading-[40px] w-full'>Welcome to SG Resources, Your Premier partner in construction, building materials, and real estate solutions</p>
-                <Button text={"View Project"} btnStyle={"bg-[#1E7BD7] text-white lg:w-[300px] w-full font-semibold rounded-[12px] p-5"} />
+                <a className="" href="#contact">
+                    <Button text={"Get Started"} btnStyle={"bg-[#1E7BD7] text-white lg:w-[300px] w-full font-semibold rounded-[12px] p-5"} />
+                </a>
             </section>
         </section>
 
