@@ -65,13 +65,13 @@ const Header = () => {
         </header>
 
         {isMenu && (
-            <nav className='backdrop-blur-2xl h-[100vh] slide-left'>
+            <nav className='backdrop-blur-2xl h-[100vh] slide-left bg-white'>
                 <div className='flex flex-col gap-3 font-semibold'>
-                    <a href="#home" onClick={()=> setIsMenu(false)} className='text-[#fff] px-6 py-4 hover:bg-white hover:text-[#1E7bd7]'>Home</a>
-                    <a href="#services" onClick={()=> setIsMenu(false)} className='text-[#fff] px-6 py-4 hover:bg-white hover:text-[#1E7bd7]'>Services</a>
-                    <a href="#about" onClick={()=> setIsMenu(false)} className='text-[#fff] px-6 py-4 hover:bg-white hover:text-[#1E7bd7]'>About us</a>
+                    <a href="#home" onClick={()=> setIsMenu(false)} className='text-[#000] px-6 py-4 hover:bg-white hover:text-[#1E7bd7]'>Home</a>
+                    <a href="#services" onClick={()=> setIsMenu(false)} className='text-[#000] px-6 py-4 hover:bg-white hover:text-[#1E7bd7]'>Services</a>
+                    <a href="#about" onClick={()=> setIsMenu(false)} className='text-[#000] px-6 py-4 hover:bg-white hover:text-[#1E7bd7]'>About us</a>
                     {/* <a href="#gallery" onClick={()=> setIsMenu(false)} className='text-white px-6 py-4 hover:bg-white hover:text-[#1E7bd7]'>Gallery</a> */}
-                    <a href="#contact" onClick={()=> setIsMenu(false)} className='text-[#fff] px-6 py-4 hover:bg-white hover:text-[#1E7bd7]'>Contact us</a>
+                    <a href="#contact" onClick={()=> setIsMenu(false)} className='text-[#000] px-6 py-4 hover:bg-white hover:text-[#1E7bd7]'>Contact us</a>
                     <Button btnStyle={"bg-[#1E7BD7] flex-[1] mx-6 font-semibold text-white p-4"} text={"Direct Email"} />
                 </div>
             </nav>
