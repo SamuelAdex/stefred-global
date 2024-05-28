@@ -4,6 +4,7 @@
 import React, { useEffect, useState } from 'react'
 
 import logo from '../assets/Stefred_Logo AD-cropped.png';
+import logoNew from '../assets/Stefred_Logo-new1.png';
 import Button from './Button';
 import { FaFacebook, FaInstagram, FaSquareTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
@@ -47,7 +48,7 @@ const Header = () => {
         </section>
         <header className='flex justify-between py-2 lg:w-[90%] m-auto m-[0px] w-full lg:px-0 px-6 gap-12 items-center'>
             <div className='flex-[1.5]'>
-                <img src={logo} loading='lazy' className='w-[150px] p-2 rounded-[8px]' alt="" />
+                <img src={logoNew} loading='lazy' className='md:w-[200px] w-[150px]' alt="" />
             </div>
             <div className='md:flex hidden flex-[3] items-center gap-10 font-semibold'>
                 <a href="#home" className='text-black hover:text-[#1E7bd7]'>Home</a>
