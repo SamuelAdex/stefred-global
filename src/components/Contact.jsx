@@ -25,6 +25,7 @@ const Contact = () => {
                 <option>Two Bedroom</option>
                 <option>Three Bedroom</option>
                 <option>Land</option>
+                <option>Building Materials</option>
               </select>
             </section>
             <Button
