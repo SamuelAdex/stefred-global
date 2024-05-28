@@ -10,21 +10,27 @@ const Testimonial = () => {
     const testimonies = [
         {
             id: 1,
-            client: "Moshood Ajose",
-            location: "Lagos, Nigeria",
-            testimony: "When we came to Prime Oikos at first, there was nothing there, it was just bare land. So it's kind of nice to see how far it has come, the gate structure, where our plot is, the plans for the road, and to get an idea of how the estate is developing and moving forward. It's pretty cool that it has sort of progressed that fast in a very short time. Ajayi OluwadamilolaLagos, Nigeria. Investing with SG Resource is quite impressive. I'm coming to Prime Oikos for the first time and within a short time, I can say there's a very big plan for the future. I'm looking forward to the apartments you're building. I'm quite impressed with your processes and I would most definitely recommend SG Resource to others. Olawunmi OlasunboLagos, Nigeria. I'm so delighted with what I've seen at Pacific Manor. The quality of work is super, and the rate of work Is very impressive considering the economy, Covid, and what I've seen in other estates. From what I can see now, I wish I had invested more. So I would encourage other people to come and invest"
+            client: "Chinedu Okafor",
+            location: "Nigeria",
+            testimony: "Buying my building materials from this company has been a game-changer. The quality of the materials is top-notch, and their customer service is impeccable. I highly recommend them to anyone looking for reliable construction supplies."
         },
         {
             id: 2,
-            client: "S.A",
-            location: "Owerri, Nigeria",
-            testimony: "When we came to Prime Oikos at first, there was nothing there, it was just bare land. So it's kind of nice to see how far it has come, the gate structure, where our plot is, the plans for the road, and to get an idea of how the estate is developing and moving forward. It's pretty cool that it has sort of progressed that fast in a very short time. Ajayi OluwadamilolaLagos, Nigeria. Investing with SG Resource is quite impressive. I'm coming to Prime Oikos for the first time and within a short time, I can say there's a very big plan for the future. I'm looking forward to the apartments you're building. I'm quite impressed with your processes and I would most definitely recommend SG Resource to others. Olawunmi OlasunboLagos, Nigeria. I'm so delighted with what I've seen at Pacific Manor. The quality of work is super, and the rate of work Is very impressive considering the economy, Covid, and what I've seen in other estates. From what I can see now, I wish I had invested more. So I would encourage other people to come and invest"
+            client: "Amina Yusuf",
+            location: "Nigeria",
+            testimony: "I recently bought a property through this real estate company, and the experience was seamless. They were professional, transparent, and made the whole process stress-free. Their dedication to customer satisfaction is evident in every interaction."
         },
         {
             id: 3,
-            client: "Brain P.A",
-            location: "Bonny Island, Nigeria",
-            testimony: "When we came to Prime Oikos at first, there was nothing there, it was just bare land. So it's kind of nice to see how far it has come, the gate structure, where our plot is, the plans for the road, and to get an idea of how the estate is developing and moving forward. It's pretty cool that it has sort of progressed that fast in a very short time. Ajayi OluwadamilolaLagos, Nigeria. Investing with SG Resource is quite impressive. I'm coming to Prime Oikos for the first time and within a short time, I can say there's a very big plan for the future. I'm looking forward to the apartments you're building. I'm quite impressed with your processes and I would most definitely recommend SG Resource to others. Olawunmi OlasunboLagos, Nigeria. I'm so delighted with what I've seen at Pacific Manor. The quality of work is super, and the rate of work Is very impressive considering the economy, Covid, and what I've seen in other estates. From what I can see now, I wish I had invested more. So I would encourage other people to come and invest"
+            client: "Emeka Nwosu",
+            location: "Nigeria",
+            testimony: "As a contractor, finding a trustworthy supplier for construction materials is crucial. This company has never let me down. Their products are of the highest quality, and they always deliver on time. I wouldn't go anywhere else."
+        },
+        {
+            id: 4,
+            client: "Funmi Adewale",
+            location: "Nigeria",
+            testimony: "The real estate services provided by this company are outstanding. From the initial consultation to closing the deal, they were supportive and knowledgeable. I felt confident and well-informed throughout the entire process."
         },
     ]
 
@@ -55,7 +61,7 @@ const Testimonial = () => {
                     <div className='mx-5' key={i}>
                         <div className='text-center'>
                             <p className='bg-gray-100 italic md:text-[24px] text-[14px] relative p-10 '>
-                                {_.testimony.slice(0,200)}
+                                {_.testimony.slice(0,200)}{"..."}
                                 <span id='triangle' className='w-[20px] h-[20px] absolute z-10 rotate-180 bottom-[-11px] bg-inherit left-[450px] right-[500px]'></span>
                             </p>
                             <div className='flex flex-col gap-1 mt-2'>

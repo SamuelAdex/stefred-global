@@ -8,7 +8,8 @@ import Button from './Button';
 import { FaFacebook, FaInstagram, FaSquareTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { CgMenuRight } from "react-icons/cg";
-import { MdClose } from 'react-icons/md';
+import { MdClose, MdMail, MdOutlineWhatsapp } from 'react-icons/md';
+import { BiLogoGmail } from "react-icons/bi";
 
 const Header = () => {
     const [bgColor, setBgColor] = useState(false)
@@ -40,8 +41,8 @@ const Header = () => {
                 <FaSquareTwitter />
             </aside>
             <aside className="flex items-center gap-8">
-                <p>+234085858575853</p>
-                <p>info@stefred.com</p>
+                <p className='inline-flex items-center gap-1'> <MdOutlineWhatsapp fontSize={"1.2rem"} /> +2349162050795</p>
+                <p className='inline-flex items-center gap-1'> <BiLogoGmail fontSize={"1.2rem"} /> stefredglobalresources@gmail.com</p>
             </aside>
         </section>
         <header className='flex justify-between py-2 lg:w-[90%] m-auto m-[0px] w-full lg:px-0 px-6 gap-12 items-center'>

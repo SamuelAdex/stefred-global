@@ -10,6 +10,8 @@ import Testimonial from '../components/Testimonial'
 import Contact from '../components/Contact'
 import Gallery from '../components/Gallery'
 import Footer from '../components/Footer'
+import WhyUs from '../components/WhyUs'
+import CTA from '../components/CTA'
 
 const Home = () => {
   return (
@@ -18,6 +20,8 @@ const Home = () => {
       <Hero />
       <Services />
       <About />
+      <WhyUs />
+      <CTA />
       <Testimonial />
       {/* <Gallery /> */}
       <Contact />
