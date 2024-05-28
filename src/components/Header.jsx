@@ -33,14 +33,14 @@ const Header = () => {
 
   return (
     <section className={`${bgColor ? 'backdrop-blur-sm' : ''} fixed top-0 w-full z-10 `}>
-        <section className="flex justify-between px-7 bg-black p-2 gap-2 text-white text-[14px]">
+        <section className="flex justify-between px-7 bg-black p-3 gap-2 text-white text-[14px]">
             <aside className="flex items-center gap-3">
                 <FaFacebook />
                 <FaInstagram />
                 <FaLinkedin />
                 <FaSquareTwitter />
             </aside>
-            <aside className="flex items-center gap-8">
+            <aside className="md:flex hidden items-center gap-8 md:text-[12px]">
                 <p className='inline-flex items-center gap-1'> <MdOutlineWhatsapp fontSize={"1.2rem"} /> +2349162050795</p>
                 <p className='inline-flex items-center gap-1'> <BiLogoGmail fontSize={"1.2rem"} /> stefredglobalresources@gmail.com</p>
             </aside>
