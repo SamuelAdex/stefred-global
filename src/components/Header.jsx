@@ -65,7 +65,7 @@ const Header = () => {
         </header>
 
         {isMenu && (
-            <nav className='backdrop-blur-2xl h-[100vh] slide-left bg-white'>
+            <nav className='backdrop-blur-2xl md:hidden block h-[100vh] slide-left bg-white'>
                 <div className='flex flex-col gap-3 font-semibold'>
                     <a href="#home" onClick={()=> setIsMenu(false)} className='text-[#000] px-6 py-4 hover:bg-white hover:text-[#1E7bd7]'>Home</a>
                     <a href="#services" onClick={()=> setIsMenu(false)} className='text-[#000] px-6 py-4 hover:bg-white hover:text-[#1E7bd7]'>Services</a>
