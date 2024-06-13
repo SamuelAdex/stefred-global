@@ -42,7 +42,7 @@ const Header = () => {
                 <FaSquareTwitter />
             </aside>
             <aside className="md:flex hidden items-center gap-8 md:text-[12px]">
-                <p className='inline-flex items-center gap-1'> <MdOutlineWhatsapp fontSize={"1.2rem"} /> +2349162050795</p>
+                <p className='inline-flex items-center gap-1'> <MdOutlineWhatsapp fontSize={"1.2rem"} /> +2348079697937</p>
                 <p className='inline-flex items-center gap-1'> <BiLogoGmail fontSize={"1.2rem"} /> stefredglobalresources@gmail.com</p>
             </aside>
         </section>
